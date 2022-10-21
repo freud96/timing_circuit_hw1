@@ -11,7 +11,7 @@ int main()
 
     short int x, square_x = 0;
     int N = 0;
-    double rms;
+    float rms;
     while(cin >> x )
     {
         square_x += x*x;
