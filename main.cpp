@@ -4,11 +4,6 @@
 
 using namespace std;
 
-//template<size_t dp>
-//constexpr int32_t DoubleToFixed(double d)
-//{
-//    return int32_t(d * double(1 << dp) + (d >=0 ? 0.5 : -0.5));
-//}
 int main()
 {
 
@@ -28,9 +23,7 @@ int main()
 
     rms = pow(square_x/N, 0.5);
 
-    cout<<"Total number entered "<<N<<endl;
-    cout<<"sum of square "<<square_x<<endl;
-    cout<<"division "<<square_x/N<<endl;
+  
     cout<<fixed<<setprecision(2)<<"rms "<<rms<<setprecision(2)<<endl;
 
     return 0;
